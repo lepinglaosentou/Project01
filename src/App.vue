@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <el-container>
+      <el-header>
+        <h2>Project 01</h2>
+      </el-header>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
+    </el-container>
   </div>
 </template>
 <script>
@@ -23,5 +30,10 @@ body,
   line-height: 40px;
   background-color: #ddd;
   padding-left: 10px;
+}
+
+.el-header {
+  border-bottom: 1px solid #ccc;
+  line-height: 60px;
 }
 </style>

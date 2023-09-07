@@ -4,5 +4,6 @@ module.exports = {
     open: true,
     port: 7777,
     hot: true
-  }
+  },
+  lintOnSave: false
 }
