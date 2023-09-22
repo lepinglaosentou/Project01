@@ -2,7 +2,7 @@
   <div id="app">
     <el-container>
       <el-header>
-        <h2>Project 01</h2>
+        <h2>Image Aesthetics Assessment Tool</h2>
       </el-header>
       <el-main>
         <router-view></router-view>
@@ -24,6 +24,15 @@ html,
 body,
 #app {
   height: 100%;
+
+  .el-container  {
+    height: 100%;
+  }
+
+  .el-main {
+    background-color: #f3f3f3;
+    height: 100%;
+  }
 }
 #app .el-breadcrumb {
   height: 40px;
@@ -33,7 +42,7 @@ body,
 }
 
 .el-header {
-  border-bottom: 1px solid #ccc;
+  // border-bottom: 1px solid #ccc;
   line-height: 60px;
 }
 </style>

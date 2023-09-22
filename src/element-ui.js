@@ -1,11 +1,13 @@
 import Vue from 'vue'
-import { Container, Header, Main, Upload, Message } from 'element-ui'
+import { Container, Header, Main, Upload, Message, Card, Button } from 'element-ui'
 
 [
   Container,
   Main,
   Upload,
-  Header
+  Header,
+  Card,
+  Button
 ].forEach(component => Vue.use(component))
 
 Vue.prototype.$message = Message
